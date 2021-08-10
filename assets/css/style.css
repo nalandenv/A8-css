@@ -1,3 +1,33 @@
-* {
-  color: brown;
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
+
+body {
+  font-family: "Roboto Mono";
+  font-size: 1em;
+  color: red;
+  text-align: center;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: rgb(143, 20, 81);
+}
+h1:hover {
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px #dbd3d3;
+}
+p {
+  text-align: justify;
+}
+.poll {
+  color: blueviolet;
+  text-align: left;
+}
+.list-item {
+  list-style-type: none;
 }
